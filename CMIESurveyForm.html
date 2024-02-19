@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="CMIESurveyFormStyle.css">
+    <body>
+     <h1 id="title">Survey Form</h1>
+     <p id="description">Help us in better monitoring of Indian Economy</p>
+     <div class="menu">
+    <form id="survey-form" method="post" action='https://survey-form.freecodecamp.rocks'>
+    <fieldset class="personal-details">
+        <label for="name" id="name-label">Full Name:<input id="name" name="name" type="text" placeholder="Enter your full name" required />
+        </label>
+        <label for="email" id="email-label">Email-id:<input id="email" name="email" type="email" placeholder="Enter your email" required /></label>
+        <label for="age" id="number-label">Age(optional)<input id="number" type="number" name="age" min="10" max="99" placeholder="Age"/>
+        </label>
+        <label for="current-role">Choose your current occupation:<select class="current-role" id="dropdown">
+        <option>Occupation</option>
+        <option label="Student">Student</option>
+        <option label="Employee">Employee</option>
+        <option label="Businessperson">Businessperson</option>
+        <option label="Other">Other</option>
+    </select>
+        </label>
+  </fieldset>
+
+  <fieldset class="recommend-feature">
+    <label class="recommend">Are you satisfied with the work of CMIE?
+    </label>
+  <label class="recommend">
+    <input id="definitely" type="radio" name="recommend" value="definitely" class="inline" checked> Satisfied
+    </label>
+    <label class="recommend">
+      <input id="maybe" type="radio" name="recommend" value="maybe" class="inline"> Neutral
+    </label>
+    <label class="recommend">
+      <input id="not-sure" type="radio" name="recommend" value="not-sure" class="inline"> Unsatisfied
+   </label>
+    <label for="statistics">Which statistics do you refer from CMIE?<select class="statistics">
+        <option>Select an Option</option>
+        <option label="UNEMPLOYMENT RATE">UNEMPLOYMENT RATE</option>
+        <option label="CONSUMER SENTIMENTS INDEX">CONSUMER SENTIMENTS INDEX</option>
+        <option label="CONSUMER EXPECTATIONS INDEX">CONSUMER EXPECTATIONS INDEX</option>
+        <option label="CURRENT ECONOMIC CONDITIONS INDEX">CURRENT ECONOMIC CONDITIONS INDEX</option>
+    </select>
+        </label>
+  </fieldset>
+
+    <fieldset>
+            <label class="improvement">Which products would like to see improvement in? (Multiple products can be suggested)</label>
+            <label for="ProwessIQ" class="improvement"><input id="ProwessIQ" type="checkbox" name="improvement" value="ProwessIQ"class="inline" checked>ProwessIQ</label>
+                   <label for="PACE" class="improvement"><input id="PACE" type="checkbox" name="improvement" value="PACE" class="inline">PACE</label>    
+            <label for="CapEx" class="improvement"><input id="CapEx" type="checkbox" name="improvement" value="CapEx" class="inline">CapEx</label>            
+            <label for="First Source" class="improvement"><input id="First Source" type="checkbox" name="improvement" value="First Source" class="inline">First Source</label>
+            <label for="Economic Outlook" class="improvement"><input id="Economic Outlook" type="checkbox" name="improvement" value="Economic Outlook" class="inline">Economic Outlook</label>
+            
+            <label for="States of India" class="improvement"><input id="States of India" type="checkbox" name="improvement" value="States of India" class="inline">States of India</label>
+             
+            <label for="Industry Outlook" class="improvement"><input id="Industry Outlook" type="checkbox" name="improvement" value="Industry Outlook" class="inline">Industry Outlook</label>
+             
+            <label for="Commodities" class="improvement"><input id="Commodities" type="checkbox" name="improvement" value="Commodities" class="inline">Commodities</label>
+             
+            <label for="Trade" class="improvement"><input id="Trade" type="checkbox" name="improvement" value="Trade" class="inline">Trade</label>
+            
+            <label for="Consumer Pyramids" class="improvement"><input id="Consumer Pyramids" type="checkbox" name="improvement" value="Consumer Pyramids" class="inline">Consumer Pyramids</label>
+        <label for="comments">Any suggestion or comment you would like to share:
+    <textarea id="bio" name="bio" rows="5" cols="30" placeholder="Type your suggestion or comment here"></textarea>
+        </label>
+<input id="submit" type="submit" value="Submit" />
+
+</fieldset>
+</form>
+        </div>
+        </body>
+        </html>

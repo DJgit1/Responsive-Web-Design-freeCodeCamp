@@ -1,0 +1,116 @@
+ body {
+    background-color: #5E978C;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  p{
+    margin-top: -25px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  .menu {
+    background-color: #6C9A70 ;
+    margin-top: 45px;
+    margin-bottom: 0px;
+  }
+  
+  .personal-details input{
+    width: 90%;
+    min-height: 2em;
+    display: block;
+  }
+  
+  .personal-details select{
+    width: 90%;
+    min-height: 2em;
+  }
+  
+  .recommend-feature select, label {
+    width: 90%;
+  }
+  
+  .recommend-feature select{
+   margin-top: 5px;
+  }
+  
+  input[id="name"] {
+    margin-bottom: 10px;
+  }
+  
+  input[id="email"] {
+    margin-bottom: 10px;
+  }
+  
+  input[id="number"] {
+    margin-bottom: 40px;
+  }
+  
+  .current-role {
+    display: block;
+          width: 380px;
+          margin: 20px;
+          height: 30px;
+          margin-top: 0px;
+          margin-left: 0px;
+  }
+  
+  .statistics {
+          display: block;
+          width: 380px;
+          margin-bottom: 20px;
+          height: 30px;
+  }
+  
+  .improvement {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .recommend {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inline {
+    width: unset;
+  }
+  
+  input[name="improvement"] {
+    vertical-align: middle;
+  }
+  
+  .inline {
+    vertical-align: middle;
+  }
+   
+  textarea {
+     width: 100%;
+    min-height: 2em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  label[for="comments"] {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
